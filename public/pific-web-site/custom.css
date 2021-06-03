@@ -1,0 +1,364 @@
+/*
+Theme Name: Bizwheel
+Theme URI: https://themelamp.com/templates/bizwheel/
+Author: ThemeLamp
+Author URI: https://themelamp.com
+Description: Multipurpose Business and Agency WordPress Theme
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: bizwheel
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Bizwheel is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*======================================
+	CSS Theme Table of Contents
+========================================
+# Header CSS
+# Hero Area CSS
+# Features CSS
+# Features Main CSS
+# Services CSS
+	+ Latest service
+	+ Single service
+# Call to action CSS
+# Portfolio CSS
+	+ Latest Portfolio
+	+ Portfolio Single
+# Testimonial CSS
+# CounterUP CSS
+# Team CSS
+# Blog CSS
+# Client Carousel CSS
+# Skills CSS
+# Pricing Plan CSS
+# Faqs CSS
+# Contact Box CSS
+# Contact Form CSS
+# Image Feature CSS
+# Theme Others CSS
+========================================*/
+
+/*======================================
+	Header CSS
+========================================*/
+
+
+
+/* .section-space */
+a.hitCounter.badge-done1 {
+    background-color: #17a2b8;
+
+}
+.single-clint {
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px 15px;
+    /* -webkit-box-shadow: 0 5px 20px rgb(0 0 0 / 10%); */
+    -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 5px 20px rgb(0 0 0 / 10%); */
+    background: #ffffff;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    border-top: 3px solid transparent;
+    transition: all 0.4s ease;
+}
+.contact-form-area .form-group .icon {
+
+    color: #110982;
+
+}
+.footer .address-widget-list li, .footer .address-widget-list li a {
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.footer .f-link ul li a {
+    color: #fff;
+}
+.section-space {
+    padding: 50px 0;
+}
+.section-title-2 {
+    padding-left: 10%;
+}
+.ticker-container ul div li {
+    padding: 8px 0;
+}
+.cbp-item business animation{
+	padding: 3%;
+}
+.cbp-item {
+    /* padding: 10px; */
+}
+.single-portfolio {
+
+    padding: 10px;
+}
+.single-portfolio .portfolio-head {
+    padding: 15px;
+}
+.card{
+	border: 0px solid rgba(0,0,0,.125);
+}
+.header .img-logo {
+    margin-top: 8%;
+}
+/* top bar */
+.topbar-right{
+	margin-top: 2px;
+}
+.topbar {
+    background-color: #35B9BB;
+}
+.owl-item{
+    padding-right: 75px;
+}
+/* nav bar */
+.right-bar {
+    /* height: 80%; */
+}
+/* .right-bar{
+    height: 88%;
+} */
+.single-service:hover .icon-bg{
+	background: #35b9bb;
+}
+.middle-inner{
+	margin-bottom: -1%;
+}
+/* braking news */
+.ticker-container {
+	background-color: #EAEAEA;
+	color: rgb(0, 0, 0);
+    height: 50px;
+}
+.ticker-container-2 {
+	background-color: #EAEAEA;
+	color: rgb(0, 0, 0);
+    height: 50px;
+    margin-bottom: 1px;
+}
+.ticker-container ul div li a {
+	color: #000000;
+}
+.ticker-container .ticker-caption p {
+	color: white;
+	text-align: center;
+}
+.section-title h1 span {
+    font-size: 28px;
+    background: #12ddf3;
+}
+.section-title h1 b {
+    display: block;
+    font-weight: 700;
+    font-size: x-large;
+}
+.call-action.overlay:before {
+    opacity: 0.92;
+    background: #35B9BB;
+}
+.right-bar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -21px;
+    width: 118px;
+    height: 88%;
+    transform: skew(-26deg);
+    background: #35B9BB;
+    z-index: -1;
+}
+.custom-contact{
+    padding-left: 3%;
+}
+.footer {
+	background-color: #35B9BB;
+}
+.hero-slider,
+.hero-slider .single-slider{
+	height: 450px;
+}
+@media only screen and (min-width: 321px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 150px;
+	}
+}
+@media only screen and (min-width: 480px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 250px;
+	}
+}
+@media only screen and (min-width: 769px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 350px;
+	}
+    .header .nav-inner {
+        padding-bottom: 0.8%;
+    }
+	.middle-inner{
+	    margin-bottom: -2.7%;
+	}
+    .header .menu-area {
+        position: relative;
+        height: 85%;
+    }
+}
+@media only screen and (min-width: 1050px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 400px;
+	}
+    .header .nav-inner {
+        padding-bottom: 0.8%;
+    }
+    .header .menu-area {
+        position: relative;
+        height: 81%;
+    }
+	.middle-inner{
+	    margin-bottom: -2.59%;
+	}
+	.header .img-logo {
+   		 margin-top: 10.5%;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 460px;
+	}
+    .header .nav-inner {
+        padding-bottom: 0.8%;
+    }
+    .header .menu-area {
+        position: relative;
+        height: 81%;
+    }
+	.middle-inner{
+	    margin-bottom: -1.3%;
+	}
+	.header .img-logo {
+   		 margin-top: 9.5%;
+	}
+}
+@media only screen and (min-width: 1464px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 460px;
+	}
+    .header .nav-inner {
+        padding-bottom: 0.8%;
+    }
+    .header .menu-area {
+        position: relative;
+        height: 95%;
+    }
+	.middle-inner{
+	    margin-bottom: -1%;
+	}
+	.header .img-logo {
+   		 margin-top: 8%;
+	}
+}
+@media only screen and (min-width: 1950px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 460px;
+	}
+    .header .nav-inner {
+        padding-bottom: 0.8%;
+    }
+    .header .menu-area {
+        position: relative;
+        height: 79%;
+    }
+	.middle-inner{
+	    margin-bottom: -1.2999%;
+        /* margin-bottom: -1.59%; */
+	}
+	.header .img-logo {
+   		 /* margin-top: 5.6%; */
+            margin-top: 3.6%;
+	}
+}
+@media only screen and (min-width: 2560px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 100%;
+	}
+    .header .menu-area {
+        position: relative;
+        height: 98%;
+    }
+    .header .nav-inner {
+        padding-bottom: 0.8%;
+    }
+	.middle-inner{
+	    margin-bottom: -.6%;
+	}
+	.header .img-logo {
+   		 margin-top: 6%;
+	}
+
+
+}
+@media only screen and (min-width: 3560px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 100%;
+	}
+    .header .nav-inner {
+        padding-bottom: 0.8%;
+    }
+    .header .menu-area {
+        position: relative;
+        height: 81%;
+    }
+	.middle-inner{
+	    /* margin-bottom: -11px; */
+        margin-bottom: -31px;
+	}
+	.header .img-logo {
+   		 margin-top: 2.5%;
+	}
+}
+@media only screen and (min-width: 4460px) {
+	.carousel-inner img {
+  		width: 100%;
+  		height: 100%;
+	}
+
+    .header .nav-inner {
+        padding-bottom: 0.8%;
+    }
+    .header .menu-area {
+        position: relative;
+        height: 100%;
+    }
+	.middle-inner{
+	    /* margin-bottom: -11px; */
+        margin-bottom: -13px;
+	}
+	.header .img-logo {
+   		 margin-top: 2.5%;
+	}
+}
+
+
+
+
