@@ -16,32 +16,28 @@
 		<link rel="icon" type="image/favicon.png" href="{{ asset('pific-web-site') }}/img/logo.png">
 
 		<!-- Web Font -->
-		{{-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> --}}
-        <link rel="stylesheet" href="{{ asset('pific-web-site') }}/google-font.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 		<!-- Bizwheel Plugins CSS -->
 		{{-- <link rel="stylesheet" type="text/css" href="{{ asset('backend') }}/files/assets/select2/jquery.multiselect.js"> --}}
 
-		{{-- <link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/animate.min.css">
+		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/animate.min.css">
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/bootstrap.min.css">
-		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/cubeportfolio.min.css"> --}}
-
+		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/cubeportfolio.min.css">
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/font-awesome.css">
-
-		{{-- <link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/jquery.fancybox.min.css">
+		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/jquery.fancybox.min.css">
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/magnific-popup.min.css">
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/owl-carousel.min.css">
-		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/slicknav.min.css"> --}}
+		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/slicknav.min.css">
 
 		<!-- Bizwheel Stylesheet -->
-		{{-- <link rel="stylesheet" type="text/css" href="{{ asset('pific-web-site') }}/ticker.css">
+		<link rel="stylesheet" type="text/css" href="{{ asset('pific-web-site') }}/ticker.css">
 
 
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/reset.css">
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/style.css">
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/responsive.css">
-        <link rel="stylesheet" type="text/css" href="{{ asset('pific-web-site') }}/custom.css"> --}}
-        <link rel="stylesheet" type="text/css" href="{{ mix('css/mix-all.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('pific-web-site') }}/custom.css">
 
 	</head>
 	<body id="bg">
@@ -332,37 +328,35 @@
 
 		<!-- Jquery JS -->
 
-		{{-- <script src="{{ asset('pific-web-site') }}/js/jquery.min.js"></script>
+		<script src="{{ asset('pific-web-site') }}/js/jquery.min.js"></script>
 		<script src="{{ asset('pific-web-site') }}/js/jquery.lazyload.js"></script>
-		<script src="{{ asset('pific-web-site') }}/js/jquery-migrate-3.0.0.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/jquery-migrate-3.0.0.js"></script>
 		<!-- Popper JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/popper.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/popper.min.js"></script>
 		<!-- Bootstrap JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/bootstrap.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/bootstrap.min.js"></script>
 		<!-- Modernizr JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/modernizr.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/modernizr.min.js"></script>
 		<!-- ScrollUp JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/scrollup.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/scrollup.js"></script>
 		<!-- FacnyBox JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/jquery-fancybox.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/jquery-fancybox.min.js"></script>
 		<!-- Cube Portfolio JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/cubeportfolio.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/cubeportfolio.min.js"></script>
 		<!-- Slick Nav JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/slicknav.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/slicknav.min.js"></script>
 		<!-- Slick Nav JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/slicknav.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/slicknav.min.js"></script>
 		<!-- Slick Slider JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/owl-carousel.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/owl-carousel.min.js"></script>
 		<!-- Easing JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/easing.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/easing.js"></script>
 		<!-- Magnipic Popup JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/magnific-popup.min.js"></script> --}}
+		<script src="{{ asset('pific-web-site') }}/js/magnific-popup.min.js"></script>
 		<!-- Active JS -->
-		{{-- <script src="{{ asset('pific-web-site') }}/js/active.js"></script>
+		<script src="{{ asset('pific-web-site') }}/js/active.js"></script>
 
-		<script src="{{ asset('pific-web-site') }}/ticker.js"></script> --}}
-
-        <script src="{{ mix('js/mix-all.js') }}"></script>
+		<script src="{{ asset('pific-web-site') }}/ticker.js"></script>
 
 
         <script>
