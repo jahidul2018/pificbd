@@ -16,7 +16,7 @@
 								</ul>
 							</div>
 							<!-- Bread Title -->
-							<div class="bread-title"><h2>PIFIC</h2></div>
+							<div class="bread-title"><h2>About PIFIC</h2></div>
 						</div>
 					</div>
 				</div>
@@ -81,70 +81,114 @@
 								</div> --}}
 							</div>
 						</div>
-                        {{-- <div class="about-content section-title default text-left">
-							<div class="section-top section-title-2">
-								<h1><b>Objectives</b></h1>
-							</div>
-							<div class="section-bottom section-title-2">
-								<div class="text">
-                                        <ol style="color: black;" class="section-title-2">
-                                            <li>PIFIC will act as a funding mechanism for technical assistance and investment in infrastructure to fill critical gaps affecting groups and clusters of industries.</li>
-                                            <li>PIFIC will serve clusters of enterprises to ensure that the infrastructure project creates public goods benefits by building on and creating linkage externalities along supply chain.</li>
-                                            <li>Projects to be solicited from industry associations, business groups and consortia of firms from the targeted sectors. </li>
-                                            <li>Selected infrastructure projects will increase production and export capacity, improve social and environmental conditions and create jobs. </li>
-                                            <li>Projects may also be proposed by local utility companies, local authorities, group of enterprises, regulatory agencies and technology centers.</li>
-                                        </ol>
 
-
-								</div>
-
-							</div>
-						</div> --}}
-                        {{-- <div class="about-content section-title default text-left">
-							<div class="section-top section-title-2">
-								<h1><b>PIFIC Consultant</b></h1>
-							</div>
-							<div class="section-bottom section-title-2">
-								<div class="text">
-                                        <p><b>Targeted sectors: </b></p>
-                                        <ol style="color: black;" class="section-title-2">
-                                            <li>PIFIC Management Consultant is led by IMC Worldwide (UK) in association with BETS Consulting and Infrastructure Investment Facilitation Company (IIFC) of Bangladesh;</li>
-                                            <li>PIFIC management consultancy will develop the pipeline of project proposals, draw up assistance agreements, assist with project preparation, evaluate proposals and recommend for selection to PIU and prepare bidding documents. </li>
-                                            <li>Consultant will also support PIU in monitoring the performance of projects under PIU contract.</li>
-                                        </ol>
-								</div>
-							</div>
-						</div> --}}
 					</div>
 				</div>
 			</div>
 		</section>
-         <!-- ======= Our Skills Section ======= -->
-
-         {{-- <section>
-            <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3 class="progress-title">HTML5</h3>
-                            <div class="progress">
-                                <div class="progress-bar" style="width:65%; background:#1f75c4;">
-                                    <span class="progress-icon fa fa-globe"></span>
-                                    <div class="progress-value"><span>3</span>%</div>
-                                </div>
-                            </div>
-                            <h3 class="progress-title">CSS3</h3>
-                            <div class="progress orange">
-                                <div class="progress-bar" style="width:90%; background:#f7810e;">
-                                    <span class="progress-icon fa fa-rocket"></span>
-                                    <div class="progress-value"><span>5</span>%</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-         </section> --}}
         <section>
+        <div class="continer">
             <div class="container">
+                <div class="row justify-content-center">
+                   <h3>Project Progress</h3>
+                </div>
+                <div class="container bars py-4">
+
+                  <div id="bar1" class="progress my-4">
+                    <div class="progress-bar active" role="progressbar" aria-valuenow="0" data-name="footware" aria-valuemin="0" aria-valuemax="100">
+                      <span class="progress-bar-text">footwar </span>
+                    </div>
+                  </div>
+
+                  <div id="bar2" class="progress my-4">
+                    <div class="progress-bar active" role="progressbar" aria-valuenow="0" data-name="footware" aria-valuemin="0" aria-valuemax="100">
+                      <span class="progress-bar-text"></span>
+                    </div>
+                  </div>
+
+                  <div id="bar3" class="progress my-4">
+                    <div class="progress-bar active" role="progressbar" aria-valuenow="0" data-name="footware" aria-valuemin="0" aria-valuemax="100">
+                      <span class="progress-bar-text">ling</span>
+                    </div>
+                  </div>
+                  <div id="bar4" class="progress my-4">
+                    <div class="progress-bar active" role="progressbar" aria-valuenow="0" data-name="footware" aria-valuemin="0" aria-valuemax="100">
+                      <span class="progress-bar-text">pls</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <style>
+          .btn {
+            display: block;
+            width: 100%;
+            padding: 4px 0px;
+            font-size: 1em;
+          }
+
+          div.col-2{
+            padding: 0;
+            margin-right: 4px;
+          }
+
+          .container.bars{
+            margin-top: 20px;
+            border: 1px solid grey;
+            background:rgba(112, 128, 144, 0.2)
+          }
+          .container.buttons{
+
+            border: 1px solid grey;
+            border-top: 0;
+          }
+          .progress {
+            border-radius: 100px;
+            background-color: #f8f9fa;
+            box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.192);
+          }
+
+          .progress-bar.active {
+            border-radius: 100px;
+            background-color: #12e4eb;
+          }
+
+          .progress-bar.success {
+            background-color: green;
+            transition: width .6s ease, background-color .3s .3s ease-in;
+
+          }
+
+          .progress-bar.fail {
+            background-color: red;
+            transition: width .6s ease, background-color .3s .3s ease-in;
+
+          }
+          .progress-bar.fail-1 {
+            background-color: rgb(168, 197, 39);
+            transition: width .6s ease, background-color .3s .3s ease-in;
+
+          }
+          .progress-bar.fail-2 {
+            background-color: rgb(0, 238, 255);
+            transition: width .6s ease, background-color .3s .3s ease-in;
+
+          }
+          .progress-bar.fail-3 {
+            background-color: rgb(115, 255, 0);
+            transition: width .6s ease, background-color .3s .3s ease-in;
+
+          }
+
+          .progress-bar-text {
+            font-weight: 500;
+          }
+
+        </style>
+        </section>
+
+        <section>
+            <div class="container mt-4">
                 <div class="row">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Carousel indicators -->
@@ -155,135 +199,177 @@
                         </ol> <!-- Wrapper for carousel items -->
                         <div class="carousel-inner">
                             <div class="item carousel-item active">
-                                <div class="img-box"><img src="https://i.imgur.com/Ur43esv.jpg" alt=""></div>
-                                <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-                                <p class="overview"><b>Paula Wilsons</b>Seo Analyst </p>
+                                <div class="img-box"><img src="{{ asset('pific-web-site') }}/img/comment/Tipu-Munshi-Minister-of-Commerce.jpg" alt=""></div>
+                                <p class="testimonial">The development of the country through our Export Diversification Trade Expansion Alternative Program is being implemented with World Bank funding under the Ministry of Commerce as part of various initiatives of our present government to increase youth participation.</p>
+                                <p class="overview"><b>Tipu Munshi</b>Minister of Commerce</p>
                                 <div class="star-rating"> </div>
                             </div>
                             <div class="item carousel-item">
-                                <div class="img-box"><img src="https://i.imgur.com/8RKXAIV.jpg" alt=""></div>
-                                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-                                <p class="overview"><b>Paula Wilson</b>Media Analyst </p>
+                                <div class="img-box"><img src="{{ asset('pific-web-site') }}/img/comment/jafar.jpg" alt=""></div>
+                                <p class="testimonial">The PIFIC program will help Bangladesh to be strongly connected to the international export sector. The PIFIC program under EC4J will play an improved role for traders in overcoming infrastructural problems.</p>
+                                <p class="overview"><b> Dr Md. Jafar Uddin</b>Secretary, Bangladesh Ministry of Commerce </p>
                                 <div class="star-rating"> </div>
                             </div>
-                            <div class="item carousel-item">
+                            {{-- <div class="item carousel-item">
                                 <div class="img-box"><img src="https://i.imgur.com/J6l19aF.jpg" alt=""></div>
                                 <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
                                 <p class="overview"><b>Antonio Moreno</b>Web Developer</p>
                                 <div class="star-rating"> </div>
-                            </div>
+                            </div> --}}
                         </div> <!-- Carousel controls --> <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev"> <i class="fa fa-angle-left"></i> </a> <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next"> <i class="fa fa-angle-right"></i> </a>
                     </div>
                 </div>
             </div>
             <style>
+                .carousel {
+                    width: 650px;
+                    margin: 0 auto;
+                    padding-bottom: 50px
+                }
 
-                        .carousel {
-                            width: 650px;
-                            margin: 0 auto;
-                            padding-bottom: 50px
-                        }
+                .carousel .item {
+                    color: #999;
+                    font-size: 14px;
+                    text-align: center;
+                    overflow: hidden;
+                    min-height: 340px
+                }
 
-                        .carousel .item {
-                            color: #999;
-                            font-size: 14px;
-                            text-align: center;
-                            overflow: hidden;
-                            min-height: 340px
-                        }
+                .carousel .item a {
+                    color: #eb7245
+                }
 
-                        .carousel .item a {
-                            color: #eb7245
-                        }
+                .carousel .img-box {
+                    width: 145px;
+                    height: 145px;
+                    margin: 0 auto;
+                    border-radius: 50%
+                }
 
-                        .carousel .img-box {
-                            width: 145px;
-                            height: 145px;
-                            margin: 0 auto;
-                            border-radius: 50%
-                        }
+                .carousel .img-box img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    border-radius: 50%
+                }
 
-                        .carousel .img-box img {
-                            width: 100%;
-                            height: 100%;
-                            display: block;
-                            border-radius: 50%
-                        }
+                .carousel .testimonial {
+                    padding: 30px 0 10px
+                }
 
-                        .carousel .testimonial {
-                            padding: 30px 0 10px
-                        }
+                .testimonial {
+                    color: #000000;
+                    font: Times Roman
+                }
 
-                        .testimonial {
-                            color: #000000;
-                            font: Times Roman
-                        }
+                .carousel .overview {
+                    text-align: center;
+                    padding-bottom: 5px
+                }
 
-                        .carousel .overview {
-                            text-align: center;
-                            padding-bottom: 5px
-                        }
+                .carousel .overview b {
+                    color: #333;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    display: block;
+                    padding-bottom: 5px
+                }
 
-                        .carousel .overview b {
-                            color: #333;
-                            font-size: 15px;
-                            text-transform: uppercase;
-                            display: block;
-                            padding-bottom: 5px
-                        }
+                .carousel .star-rating i {
+                    font-size: 18px;
+                    color: #ffdc12
+                }
 
-                        .carousel .star-rating i {
-                            font-size: 18px;
-                            color: #ffdc12
-                        }
+                .carousel .carousel-control {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background: #999;
+                    text-shadow: none;
+                    top: 4px
+                }
 
-                        .carousel .carousel-control {
-                            width: 30px;
-                            height: 30px;
-                            border-radius: 50%;
-                            background: #999;
-                            text-shadow: none;
-                            top: 4px
-                        }
+                .carousel-control i {
+                    font-size: 20px;
+                    margin-right: 2px
+                }
 
-                        .carousel-control i {
-                            font-size: 20px;
-                            margin-right: 2px
-                        }
+                .carousel-control.left {
+                    left: auto;
+                    right: 40px
+                }
 
-                        .carousel-control.left {
-                            left: auto;
-                            right: 40px
-                        }
+                .carousel-control.right i {
+                    margin-right: -2px
+                }
 
-                        .carousel-control.right i {
-                            margin-right: -2px
-                        }
+                .carousel .carousel-indicators {
+                    bottom: 15px
+                }
 
-                        .carousel .carousel-indicators {
-                            bottom: 15px
-                        }
+                .carousel-indicators li,
+                .carousel-indicators li.active {
+                    width: 11px;
+                    height: 11px;
+                    margin: 1px 5px;
+                    border-radius: 50%
+                }
 
-                        .carousel-indicators li,
-                        .carousel-indicators li.active {
-                            width: 11px;
-                            height: 11px;
-                            margin: 1px 5px;
-                            border-radius: 50%
-                        }
+                .carousel-indicators li {
+                    background: #e2e2e2;
+                    border-color: transparent
+                }
 
-                        .carousel-indicators li {
-                            background: #e2e2e2;
-                            border-color: transparent
-                        }
-
-                        .carousel-indicators li.active {
-                            border: none;
-                            background: #888
-                        }
+                .carousel-indicators li.active {
+                    border: none;
+                    background: #888
+                }
             </style>
         </section>
-		<!--/ End About Us -->
+
         @endsection
+        @section('script')
+        <script>
+            function init() {
+                    $('.progress').each(function () {
+                    $this = $(this);
+                    var progressValue = $this.children().attr('aria-valuenow');
+                    var dataname = $this.children().attr('data-name');
+                    $this.children().width(progressValue + "%");
+                    if (progressValue != 100) {
+                        $this.children().children().text(dataname +" "+ progressValue + "%");
+                    }
+                })
+            }
+            function set(selector,name,value) {
+                $(selector).children().removeClass('success fail');
+                $(selector).children().attr('aria-valuenow', value);
+                $(selector).children().attr('data-name', name);
+                if(value>100){
+                    console.log('value over 100');
+                } else if(value == 100) {
+                $(selector).children().attr('aria-valuenow', value);
+                $(selector).children().children().html('<i class="fa fa-check"></i>');
+                $(selector).children().addClass('success');
+                } else if(value < 80) {
+                    $(selector).children().addClass('fail');
+                }
+                else if(value < 90) {
+                    $(selector).children().addClass('fail-1');
+                }
+                else if(value < 95) {
+                    $(selector).children().addClass('fail-2');
+                }
+                else if(value < 97) {
+                    $(selector).children().addClass('fail-3');
+                }
+                init();
+            }
+            set('#bar1','LEATHER', 79);
+            set('#bar2','FOOTWEAR',85);
+            set('#bar3','PLASTIC', 78);
+            set('#bar4','LIGHT ENGINEERING', 91);
+        </script>
+    @endsection
 
 

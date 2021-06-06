@@ -365,6 +365,7 @@
         <script src="{{ mix('js/mix-all.js') }}"></script>
 
 
+        @yield('script')
         <script>
 
             $({ countNum: $('.code').html() }).animate({ countNum: 100000 }, {

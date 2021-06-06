@@ -13,11 +13,11 @@
 								<ul>
 									<li><a href="index.html">Home</a></li>
 									<li><a href="about.html">About Us</a></li>
-									<li><a href="about.html">Our tecnical Team</a></li>
+									<li><a href="about.html">Our Tecnical Team</a></li>
 								</ul>
 							</div>
 							<!-- Bread Title -->
-							<div class="bread-title"><h2></h2></div>
+							<div class="bread-title"><h2> PIFIC Tecnical Team</h2></div>
 						</div>
 					</div>
 				</div>

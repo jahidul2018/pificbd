@@ -19,7 +19,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 		<!-- Bizwheel Plugins CSS -->
-		{{-- <link rel="stylesheet" type="text/css" href="{{ asset('backend') }}/files/assets/select2/jquery.multiselect.js"> --}}
+		 {{-- <link rel="stylesheet" type="text/css" href="{{ asset('backend') }}/files/assets/select2/jquery.multiselect.js">  --}}
 
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/animate.min.css">
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/bootstrap.min.css">
@@ -358,7 +358,7 @@
 
 		<script src="{{ asset('pific-web-site') }}/ticker.js"></script>
 
-
+        @yield('content')
         <script>
 
             $({ countNum: $('.code').html() }).animate({ countNum: 100000 }, {

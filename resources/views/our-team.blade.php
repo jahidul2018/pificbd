@@ -17,7 +17,7 @@
 								</ul>
 							</div>
 							<!-- Bread Title -->
-							<div class="bread-title"><h2></h2></div>
+							<div class="bread-title"><h2>PIFIC Team </h2></div>
 						</div>
 					</div>
 				</div>

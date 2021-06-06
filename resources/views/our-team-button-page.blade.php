@@ -3,7 +3,7 @@
 
 
 		<!-- Breadcrumb -->
-		<div class="breadcrumbs overlay" style="background-image:url('http://localhost:8000/pific-web-site/img/');">
+		<div class="breadcrumbs overlay" style="background-image:url('http://localhost:8000/pific-web-site/img/team/team.png');">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
@@ -12,11 +12,11 @@
 							<div class="bread-menu">
 								<ul>
 									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">Our Team</a></li>
+									<li><a href="about.html">PIFIC Team</a></li>
 								</ul>
 							</div>
 							<!-- Bread Title -->
-							<div class="bread-title"><h2></h2></div>
+							<div class="bread-title"><h2>PIFIC Team</h2></div>
 						</div>
 					</div>
 				</div>
@@ -43,11 +43,14 @@
 					<div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center">
 						<div class="about-content section-title default text-left">
 							<div class="section-top">
-								<h1><span>.......</span><b>.......</b></h1>
+								<h1><span>PIFIC </span><b>Team</b></h1>
 							</div>
 							<div class="section-bottom">
-								<div class="text">
+								<div class="" style="color: black; ">
 
+Everyone says it, but in our case it’s true: PIFIC Team is the secret to our success. Each of our employees is amazing in their own right, but together they are what makes PIFIC such a fun and rewarding place to work.  The PIFIC team is a tight-knit, talented group with a shared vision of delivering consistently great results for our clients, as well as ensuring the agency is a fun, inclusive, challenging place to work and develop a rewarding career.
+
+We’re very proud of the team we’ve built – there’s more than thirty of us now but it still feels like it did when there were just a few of us.  PIFIC has always been an agency defined by bringing together talented people with a shared vision and passion for helping us to be the best we can be for our clients.  But that doesn’t mean PIFIC is a cookie-cutter agency.  All of our employees are unique individuals who are united by a set of five core values that apply to everything we do within the agency
 								</div>
                                     <div class="btn-group mt-3" role="group" aria-label="Basic example">
                                         <div class="button mr-3 btn-success" >
