@@ -41,7 +41,10 @@
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/style.css">
 		<link rel="stylesheet" href="{{ asset('pific-web-site') }}/css/responsive.css">
         <link rel="stylesheet" type="text/css" href="{{ asset('pific-web-site') }}/custom.css"> --}}
+
+        {{-- mix --}}
         <link rel="stylesheet" type="text/css" href="{{ mix('css/mix-all.css') }}">
+
 
 	</head>
 	<body id="bg">
@@ -367,7 +370,6 @@
 
         @yield('script')
         <script>
-
             $({ countNum: $('.code').html() }).animate({ countNum: 100000 }, {
                 duration: 80000,
                 easing: 'linear',
@@ -379,7 +381,6 @@
                 //alert('finished');
             }
             });
-
             $(function() {
                 $("img.lazy").lazyload();
             });
@@ -387,7 +388,7 @@
 
 		<script>
 			var leater="Leather is a durable and flexible material created by tanning animal rawhide and skins. Leather is used to make a variety of articles, including footwear, automobile seats, clothing, bags, book bindings, fashion accessories, and furniture";
-			var lenth=200;
+			var lenth=220;
 			var trim=leater.substring(0,lenth);
 			$("#lea").html(trim);
 

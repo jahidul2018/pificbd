@@ -73,7 +73,9 @@
 						<!-- Contact Form -->
 						<div class="contact-form-area m-top-30">
 							<h4>Get In Touch</h4>
-							<form class="form" method="post" action="mail/mail.php">
+
+							<form class="form" method="post" action="{{ url('/mail', []) }}">
+                                @csrf
 								<div class="row">
 									<div class="col-lg-6 col-md-6 col-12">
 										<div class="form-group">

@@ -120,7 +120,7 @@
             </div>
         </div>
         <style>
-          .btn {
+          /* .btn {
             display: block;
             width: 100%;
             padding: 4px 0px;
@@ -182,7 +182,8 @@
 
           .progress-bar-text {
             font-weight: 500;
-          }
+          } */
+          .btn {display: block;width: 100%;padding: 4px 0px;font-size: 1em;}div.col-2{padding: 0;margin-right: 4px;}.container.bars{margin-top: 20px;border: 1px solid grey;background:rgba(112, 128, 144, 0.2) }.container.buttons{border: 1px solid grey;border-top: 0;}.progress {border-radius: 100px;background-color: #f8f9fa;box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.192);}.progress-bar.active {border-radius: 100px;background-color: #12e4eb;}.progress-bar.success {background-color: green;transition: width .6s ease, background-color .3s .3s ease-in;}.progress-bar.fail {background-color: red;transition: width .6s ease, background-color .3s .3s ease-in;}.progress-bar.fail-1 {background-color: rgb(168, 197, 39);transition: width .6s ease, background-color .3s .3s ease-in;}.progress-bar.fail-2 {background-color: rgb(0, 238, 255);transition: width .6s ease, background-color .3s .3s ease-in;}.progress-bar.fail-3 {background-color: rgb(115, 255, 0);transition: width .6s ease, background-color .3s .3s ease-in;}.progress-bar-text {font-weight: 500;}
 
         </style>
         </section>
@@ -221,7 +222,7 @@
                 </div>
             </div>
             <style>
-                .carousel {
+                /* .carousel {
                     width: 650px;
                     margin: 0 auto;
                     padding-bottom: 50px
@@ -323,7 +324,8 @@
                 .carousel-indicators li.active {
                     border: none;
                     background: #888
-                }
+                } */
+                .carousel {width: 650px;margin: 0 auto;padding-bottom: 50px }.carousel .item {color: #999;font-size: 14px;text-align: center;overflow: hidden;min-height: 340px }.carousel .item a {color: #eb7245 }.carousel .img-box {width: 145px;height: 145px;margin: 0 auto;border-radius: 50% }.carousel .img-box img {width: 100%;height: 100%;display: block;border-radius: 50% }.carousel .testimonial {padding: 30px 0 10px }.testimonial {color: #000000;font: Times Roman }.carousel .overview {text-align: center;padding-bottom: 5px }.carousel .overview b {color: #333;font-size: 15px;text-transform: uppercase;display: block;padding-bottom: 5px }.carousel .star-rating i {font-size: 18px;color: #ffdc12 }.carousel .carousel-control {width: 30px;height: 30px;border-radius: 50%;background: #999;text-shadow: none;top: 4px }.carousel-control i {font-size: 20px;margin-right: 2px }.carousel-control.left {left: auto;right: 40px }.carousel-control.right i {margin-right: -2px }.carousel .carousel-indicators {bottom: 15px }.carousel-indicators li, .carousel-indicators li.active {width: 11px;height: 11px;margin: 1px 5px;border-radius: 50% }.carousel-indicators li {background: #e2e2e2;border-color: transparent }.carousel-indicators li.active {border: none;background: #888 }
             </style>
         </section>
 

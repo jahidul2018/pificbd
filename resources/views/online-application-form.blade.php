@@ -548,7 +548,7 @@
                         <div class="panel-body">
                             <div class="form-group">
                                 <center>
-                                    <img src="success.png." alt="..." class="img-thumbnail" style="height: 200px; position: relative; ">
+                                    <img src="{{ asset('pific-web-site') }}/img/success.png" alt="success image" class="img-thumbnail" style="height: 200px; position: relative; ">
                                 </center>
                             </div>
                             <button class="btn btn-success pull-right" type="button">Download Complete Form</button>

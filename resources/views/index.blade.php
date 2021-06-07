@@ -56,6 +56,12 @@
                     <img  class="lazy" src="{{ asset('pific-web-site') }}/img/slider/mini/1.2-min.jpg" alt="tipu munshi minister of commerce images" width="1100" height="460">
                 </div>
                 <div class="carousel-item">
+                    <img  class="lazy" src="{{ asset('pific-web-site') }}/img/slider/mini/2-min.jpg" alt="tipu munshi minister of commerce images" width="1100" height="460">
+                </div>
+                <div class="carousel-item">
+                    <img  class="lazy" src="{{ asset('pific-web-site') }}/img/slider/mini/piu-team-min.jpg" alt="tipu munshi minister of commerce images" width="1100" height="460">
+                </div>
+                <div class="carousel-item">
                     <img  class="lazy" src="{{ asset('pific-web-site') }}/img/slider/mini/3-min.jpg" alt="dr. md. jafar uddin secretary of commerce images " width="1100" height="460">
                 </div>
                 <div class="carousel-item">
@@ -290,7 +296,10 @@
                                     <!-- Badge Code - Do Not Change The Code -->
                                     <div class="single-feature mb-2">
                                         <div class="item-animate">
-                                            <h4 class="code">01000</h4>
+                                            {{-- <h4 class="code">01000</h4> --}}
+
+                                            <a class="mr-4 hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#ffffff|#000000|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+
                                         </div>
                                         <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px"> Website Visit </h3>
 
@@ -302,18 +311,20 @@
                                 <div class="col-md-3 col-12">
                                     <div class="single-feature mb-2">
                                         <div class="item-animate">
-                                            <h4 class="code">01000</h4>
+                                            {{-- <h4 class="code">01000</h4> --}}
+                                            <a class="mr-4 hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#ffffff|#000000|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
                                         </div>
                                         <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Online Application</h3>
-                                        {{-- <a class="hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#17A2B8|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
+
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-12">
                                     <div class="single-feature mb-2">
                                         <div class="item-animate">
-                                            <h4 class="code" >01000</h4>
+                                            {{-- <h4 class="code" >01000</h4> --}}
+                                            <a class="mr-4 hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#ffffff|#000000|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
                                         </div>
-                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Download</h3>
+                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Application Download</h3>
                                         {{-- <a class="hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#17A2B8|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
                                     </div>
                                 </div>
@@ -321,9 +332,10 @@
                                     {{-- <div class="counter bg-info rounded mb-2"> --}}
                                         <div class="single-feature mb-2">
                                         <div class="item-animate">
-                                            <h4 class="code">01000</h4>
+                                            {{-- <h4 class="code">01000</h4> --}}
+                                            <a class="mr-4 hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#ffffff|#000000|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
                                         </div>
-                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Apply Online</h3>
+                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Complete Apply </h3>
                                         {{-- <a class="hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#17A2B8|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
                                     </div>
                                 </div>

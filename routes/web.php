@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -47,7 +49,7 @@ Route::get('/apply', function () {
     return view('apply');
 });
 Route::get('/online-apply', function () {
-    return view('online-apply');
+    return view('online-application-form');
 });
 
 
@@ -74,4 +76,46 @@ Route::get('/our-program', function () {
 Route::get('/database', function () {
     return view('our-program');
 });
+
+Route::Post('/mail', function (Request $request ) {
+    // return view('our-program');
+
+    $name= $request->first_name.' '.$request->last_name;
+    $subject=$request->subject;
+    $email= $request->email;
+    $message= $request->message;
+    //dd($name,$email,$message);
+    $details = [
+         'title' => $name.' '.$email,
+         'body'  => $name.' wants to know about '.$subject.' and '.$message,
+     ];
+    // $receivedmail ="jahiduk.alam13@gmail.com";
+     $receivedmail =[
+        "jahiduk.alam13@gmail.com",
+        "shikhasp01@gmail.com",
+        "minhaz.fgtech@gmail.com",
+
+     ];
+
+     \Mail::to($receivedmail)->send(new \App\Mail\OnlineApplicationMail($details));
+     return view('send');
+     //dd("Email is Sent to kanak.");
+ });
+
+Route::get('/send-mail', function () {
+   // return view('our-program');
+
+    $details = [
+        'title' => 'this is a test mail form pific online application',
+        'body' => 'this is a mail body'
+    ];
+    $receivedmail ="kanak.syssolution@gmail.com";
+
+    \Mail::to($receivedmail)->send(new \App\Mail\OnlineApplicationMail($details));
+    //return view('our-program');
+    dd("Email is Sent to kanak.");
+});
+
+
+
 

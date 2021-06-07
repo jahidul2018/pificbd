@@ -50,18 +50,16 @@
                                     <div class="card-group">
                                         <div class="card">
                                             <div class="cbp-item business animation">
-
                                                 <div class="single-feature single-portfolio">
-                                                    <div class="portfolio-head">
+                                                    <div class="portfolio-head overlay">
                                                         <img class="lazy" src="{{ asset('pific-web-site') }}/img/recent-activity/new/1-min.JPG" alt="#">
-
+                                                        <a class="more" href="{{ asset('/news-single') }}"><i class="fa fa-long-arrow-right"></i></a>
                                                     </div>
                                                     <div class="portfolio-content">
                                                         <h4><a href="#">Bangladesh Leather Association</a></h4>
                                                         <p>Meeting with Bangladesh Leather Association</p>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
                                         <div class="card">
