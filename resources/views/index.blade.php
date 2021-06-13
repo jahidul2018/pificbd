@@ -50,6 +50,7 @@
                 <!-- The slideshow -->
                 <div class="carousel-inner" width="450px">
                 <div class="carousel-item active">
+                    {{-- {{ asset('pific-web-site') }}/img/slider/mini/1-min.jpg --}}
                     <img class="lazy" src="{{ asset('pific-web-site') }}/img/slider/mini/1-min.jpg" alt="prime minister of bangladesh sheikh hasina image " width="1100" height="460">
                 </div>
                 <div class="carousel-item">
@@ -193,172 +194,56 @@
     </section>
 		<!--/ End Features Area -->
 		<!-- Call To Action -->
-    <section class="call-action overlay" style="background-image:url('http://localhost:8000/pific-web-site/img/opening-image.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 col-12">
-                    <div class="call-inner">
-                        <h2>PIFIC &amp; Project launch Date</h2>
-                        <p>Public Investment Facility for Infrastructure Constraints (PIFIC) is a cluster-based facility of the EC4J Project under the Ministry of Commerce and is financed by the World Bank.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-12">
-                    <div class="button">
-                        <a href="portfolio.html" class="bizwheel-btn">09-December-2020</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 		<!--/ End Call to action -->
-		<!-- Services -->
-    <section class="services section-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title defult text-center">
-                        <div class="section-top mt-2">
-                            <h1><span>Creative</span><b>Service We Provide</b></h1>
-                                <p>We provide quality service &amp; support..</p><p>Public Investment Facility for Infrastructure Constraints (PIFIC) is a cluster-based facility of the EC4J Project under the Ministry of Commerce and is financed by the World Bank.</p>
-                        </div>
-                        <div class="section-bottom">
-                            <div class="text-style-two">
+		<!-- pific-overview -->
+    <section class="services ">
+        <div class="choose single section-space">
+            <div class="">
+                <div class="row ">
+                   <div class="col-md-12 section-title defult text-center">
+                      <div class="section-top">
+                         <h1><span> PIFIC Overview</span> </h1>
+                         <p>PIFIC Management - IMC Worldwide with BETS & IIFC</p>
+                      </div>
+                   </div>
+                </div>
+                <div class="row justify-content-center ">
 
-                            </div>
+                   <div class="col-md-4" style="text-align: center">
+                        <div class="choose_box">
+                            <span>01</span> <span>Cluster Based Cpproach</span>
+                        </div>
+                        <div class="choose_box">
+                            <span>02</span> <span>Build/Enhance Infrastructure
+                            </span>
+                        </div>
+                        <div class="choose_box">
+                            <span>03</span> <span>Fund Available: $40 Million
+                            </span>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                    <!-- Single Service -->
-                    <div class="single-service">
-                        <div class="service-head">
-                            <img  class="lazy" src="{{ asset('pific-web-site') }}/img/service/1.jpeg" alt="#">
-                            {{-- <img src="{{ asset('pific-web-site') }}/img/service/4.jpg" alt="#"> --}}
-                            <div class="icon-bg"><i class="fa fa-handshake-o"></i></div>
+                    <div class="col-md-4" style="text-align: left">
+                        <div class="choose_box">
+                            <span>04</span> <span>15 - 20 Infrastructure Projects
+                            </span>
                         </div>
-                        <div class="service-content">
-                            <h4><a href="service-business.html">Business Strategy</a></h4>
-                            <p>Business Strategy Specialized technical and advisory assistance Services Provided by PIFIC</p>
-                            {{-- <a class="btn" href="service-business.html"><i class="fa fa-arrow-circle-o-right"></i>View Service</a> --}}
+                        <div class="choose_box">
+                            <span>05</span> <span>To be Completed by June 2023
+                            </span>
+                        </div>
+                        <div class="choose_box">
+                            <span>06</span> <span>Implemented by: PIU – MOC
+                            </span>
                         </div>
                     </div>
-                    <!--/ End Single Service -->
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                    <!-- Single Service -->
-                    <div class="single-service">
-                        <div class="service-head">
-                            <img  class="lazy" src="{{ asset('pific-web-site') }}/img/service/2.jpeg" alt="#">
-                            {{-- <img src="{{ asset('pific-web-site') }}/img/service/5.jpg" alt="#"> --}}
-                            <div class="icon-bg"><i class="fa fa-html5"></i></div>
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="service-develop.html">Supervision & Monitoring</a></h4>
-                            <p>PIFIC Help applicants building proposal and business case.As well as Supervision & Monitoring by PIFIC</p>
-                            {{-- <a class="btn" href="service-develop.html"><i class="fa fa-arrow-circle-o-right"></i>View Service</a> --}}
-                        </div>
-                    </div>
-                    <!--/ End Single Service -->
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                    <!-- Single Service -->
-                    <div class="single-service">
-                        <div class="service-head">
-                            <img  class="lazy" src="{{ asset('pific-web-site') }}/img/service/3.jpeg" alt="#">
-                            {{-- <img src="{{ asset('pific-web-site') }}/img/service/6.jpg" alt="#"> --}}
-                            <div class="icon-bg"><i class="fa fa-cube"></i></div>
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="service-market.html">Research & Development</a></h4>
-                            <p>Feasibility study, Technical design,
-                                Drawings, Tender documentation.Construction by PIU/MOC</p>
-                            {{-- <a class="btn" href="service-market.html"><i class="fa fa-arrow-circle-o-right"></i>View Service</a> --}}
-                        </div>
-                    </div>
-                    <!--/ End Single Service -->
+
                 </div>
             </div>
         </div>
     </section>
-		<!--/ End Services -->
-		<!-- Services -->
-    <section class="call-action mt-2" style="">
-        <div class="container">
-            <div class="row">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-md-12 col-12 text-white">
-                            {{-- offset-md-1 --}}
-                            <div class="row">
-                                <div class="col-md-3 col-12">
-                                    <!-- Badge Code - Do Not Change The Code -->
-                                    <div class="single-feature mb-2">
-                                        <div class="item-animate">
-                                            {{-- <h4 class="code">01000</h4> --}}
-
-                                            <a class="mr-4 hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#ffffff|#000000|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
-
-                                        </div>
-                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px"> Website Visit </h3>
-
-
-                                        {{-- <a class="hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#17A2B8|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
-                                        <!-- Badge Code End Here -->
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-12">
-                                    <div class="single-feature mb-2">
-                                        <div class="item-animate">
-                                            {{-- <h4 class="code">01000</h4> --}}
-                                            <a class="mr-4 hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#ffffff|#000000|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
-                                        </div>
-                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Online Application</h3>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-12">
-                                    <div class="single-feature mb-2">
-                                        <div class="item-animate">
-                                            {{-- <h4 class="code" >01000</h4> --}}
-                                            <a class="mr-4 hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#ffffff|#000000|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
-                                        </div>
-                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Application Download</h3>
-                                        {{-- <a class="hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#17A2B8|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-12">
-                                    {{-- <div class="counter bg-info rounded mb-2"> --}}
-                                        <div class="single-feature mb-2">
-                                        <div class="item-animate">
-                                            {{-- <h4 class="code">01000</h4> --}}
-                                            <a class="mr-4 hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#ffffff|#000000|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
-                                        </div>
-                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Complete Apply </h3>
-                                        {{-- <a class="hitCounter"  title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|#17A2B8|#ffffff|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {{-- <div class="item-animate">
-                            <h2 class="code">01000/h2>
-                        </div> --}}
-                    </div>
-                </div>
-                {{-- <div class="col-lg-4 col-12">
-                    websilt
-                </div>
-                <div class="col-lg-3 col-12">
-
-                    <div class="button">
-                        <a href="portfolio.html" class="bizwheel-btn">10000+</a>
-                    </div>
-                </div> --}}
-
-            </div>
-        </div>
-    </section>
+        <!-- pific-overview -->
+        <!-- who we are-->
     <section class="services section-bg ">
         <div class="container">
             <div class="row section-space">
@@ -402,23 +287,126 @@
                             <!-- HTML -->
 
                         <div id="player-overlay">
-                            <video style="width: 100%; heigrt:100%" controls class="video-fluid" autoplay muted width="100%">
-                                {{-- <video style="width: 100%; heigrt:100%" controls autoplay class="video-fluid" autoplay loop muted width="100%"> --}}
-                            <source src="{{ asset('pific-web-site') }}/PIFIC-6-5-21.mp4" type="video/mp4" class="lazy" />
-                            <source src="{{ asset('pific-web-site') }}/PIFIC-6-5-21.mp4" type="video/mp4" codecs="vp8, vorbis" autoplay />
-                            <source src="{{ asset('pific-web-site') }}/PIFIC-6-5-21.mp4" type="video/mp4" codecs="theora, vorbis" autoplay />
-                            </video>
+                            {{-- <video style="width: 100%; heigrt:100%" controls class="video-fluid" autoplay muted width="100%"> --}}
+                            {{-- <video style="width: 100%; heigrt:100%" controls autoplay class="video-fluid" autoplay loop muted width="100%"> --}}
+                                {{-- {{ asset('pific-web-site') }}/PIFIC-6-5-21.mp4 --}}
+                            {{-- <source src="https://youtu.be/KsLVDQ-VGqU" type="video/mp4" class="lazy" />
+                            <source src="https://youtu.be/KsLVDQ-VGqU" type="video/mp4" class="lazy" />
+                            <source src="https://youtu.be/KsLVDQ-VGqU" type="video/mp4" codecs="vp8, vorbis" autoplay />
+                            <source src="https://youtu.be/KsLVDQ-VGqU" type="video/mp4" codecs="theora, vorbis" autoplay /> --}}
+                            {{-- </video> --}}
+                            <iframe width="1904" height="450" src="https://www.youtube.com/embed/KsLVDQ-VGqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <!-- <img src="https://via.placeholder.com/800x725" alt="#"> -->
                         {{-- <iframe width="1366" height="550" src="https://www.youtube.com/embed/stAyah-Gi4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
                     </div>
+
                     <!--/End About Video  -->
                 </div>
             </div>
         </div>
     </section>
-		<!--/ End Services -->
-		<!-- Portfolio -->
+     <!-- service-we-provide -->
+    <section class="services section-bg mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title defult text-center">
+                        <div class="section-top mt-2">
+                            <h1><span>Service We Provide</span><b></b></h1>
+                                <p>We provide quality service &amp; support..</p><p>Public Investment Facility for Infrastructure Constraints (PIFIC) is a cluster-based facility of the EC4J Project under the Ministry of Commerce and is financed by the World Bank.</p>
+                        </div>
+                        <div class="section-bottom">
+                            <div class="text-style-two">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-3">
+
+                    <div class="single-service">
+                        <div class="service-head">
+                            <img  class="lazy" src="{{ asset('pific-web-site') }}/img/service/1.jpg" alt="#">
+
+                            <div class="icon-bg"><i class="fa fa-handshake-o"></i></div>
+                        </div>
+                        <div class="service-content">
+
+                            {{-- <h4><a href="service-business.html">Technical and advisory assistance</a></h4> --}}
+
+                            {{-- <p>Business Strategy Specialized technical and advisory assistance Services Provided by PIFIC</p> --}}
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-3">
+
+                    <div class="single-service">
+                        <div class="service-head">
+                            <img  class="lazy" src="{{ asset('pific-web-site') }}/img/service/2.jpg" alt="#">
+
+                            <div class="icon-bg"><i class="fa fa-html5"></i></div>
+                        </div>
+                        <div class="service-content">
+                            {{-- <h4><a href="service-develop.html">Help applicants’ proposal and business case </a></h4> --}}
+                            {{-- <p>PIFIC Help applicants building proposal and business case.As well as Supervision & Monitoring by PIFIC</p> --}}
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-3">
+                    <div class="single-service">
+                        <div class="service-head">
+                            <img  class="lazy" src="{{ asset('pific-web-site') }}/img/service/3.jpg" alt="#">
+                            <div class="icon-bg"><i class="fa fa-cube"></i></div>
+                        </div>
+                        <div class="service-content">
+                            {{-- <h4><a href="service-market.html">Feasibility study, Engineering Design, Drawings, Bid Doc</a></h4> --}}
+                            {{-- <p>Feasibility study, Technical design,Drawings, Tender documentation.Construction by PIU/MOC</p> --}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-3">
+                    <div class="single-service">
+                        <div class="service-head">
+                            <img  class="lazy" src="{{ asset('pific-web-site') }}/img/service/4.jpg" alt="#">
+                            <div class="icon-bg"><i class="fa fa-cube"></i></div>
+                        </div>
+                        <div class="service-content">
+                            {{-- <h4><a href="service-market.html">Construction by PIU/MOC</a></h4> --}}
+                            {{-- <p>Feasibility study, Technical design,Drawings, Tender documentation.Construction by PIU/MOC</p> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- service-we-provide -->
+     <!--launch date-->
+    <section class="call-action overlay" style="background-image:url('http://pificbd.syssolution.com.bd/pific-web-site/img/opening-image.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-12">
+                    <div class="call-inner">
+                        <h2>PIFIC &amp; Project Launch Date</h2>
+                        <p>Public Investment Facility for Infrastructure Constraints (PIFIC) is a cluster-based facility of the EC4J Project under the Ministry of Commerce and is financed by the World Bank.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="button">
+                        <a href="portfolio.html" class="bizwheel-btn">09-December-2020</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+		<!-- recent-activity -->
     <section class="portfolio">
         <div class="container">
             <div class="row">
@@ -553,7 +541,82 @@
             </div>
         </div>
     </section>
-		<!--/ End Portfolio -->
+		<!--hit count -->
+    <section class="call-action mt-4" style="">
+        <div class="container">
+            <div class="row justify-content-center" style="background-color: rgba(166, 216, 253, 0.405)">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-12 col-12 text-white">
+                            {{-- offset-md-1 --}}
+                            <div class="row">
+                                <div class="col-md-3 col-12">
+                                    <!-- Badge Code - Do Not Change The Code -->
+                                    <div class="single-feature mb-4">
+                                        <div class="item-animate">
+                                            {{-- <h4 class="code">01000</h4> --}}
+
+
+                                               <a class="hitCounter" target="_blank" title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|rgb(255, 255, 255);|rgb(0, 0, 0);|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+
+
+                                        </div>
+                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px"> Website Visit </h3>
+                                        <!-- Badge Code End Here -->
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <div class="single-feature mb-4">
+                                        <div class="item-animate">
+                                            <h3 class="code">0001</h3>
+                                            {{-- <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|rgb(255, 255, 255);|rgb(0, 0, 0);|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
+                                        </div>
+                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Online Application</h3>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <div class="single-feature mb-4">
+                                        <div class="item-animate">
+                                            <h3 class="code" >0001</h3>
+                                            {{-- <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|rgb(250, 250, 250);|rgb(0, 0, 0);|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
+                                        </div>
+                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Application Download</h3>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    {{-- <div class="counter bg-info rounded mb-4"> --}}
+                                        <div class="single-feature mb-4">
+                                        <div class="item-animate">
+                                            <h3 class="code">0001</h3>
+                                            {{-- <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="cb5fddde62724450c38ba9863d591008|5|page|1|rgb(250, 250, 250);|rgb(0, 0, 0);|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script> --}}
+                                        </div>
+                                        <h3 class="" style="color: rgb(35, 115, 201); fornt-size:20px">Complete Apply </h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- <div class="item-animate">
+                            <h2 class="code">01000/h2>
+                        </div> --}}
+                    </div>
+                </div>
+                {{-- <div class="col-lg-4 col-12">
+                    websilt
+                </div>
+                <div class="col-lg-3 col-12">
+
+                    <div class="button">
+                        <a href="portfolio.html" class="bizwheel-btn">10000+</a>
+                    </div>
+                </div> --}}
+
+            </div>
+        </div>
+    </section>
+    <!-- logo-->
     <section class="features-area section-clint">
         <div class="container">
             <div class="row">
@@ -562,7 +625,7 @@
                     <div class="single-clint">
                         <div class="icon-head">
                             <!-- <i class="fa fa-podcast"></i> -->
-                            <img class="lazy" src="{{ asset('pific-web-site') }}/img/client/ec4j.png" alt="#">
+                            <img class="lazy" src="{{ asset('pific-web-site') }}/img/client/ec4j.jpg" alt="#" width="250px">
                         </div>
 
                     </div>
@@ -573,7 +636,7 @@
                     <div class="single-clint">
                         <div class="icon-head">
                             <!-- <i class="fa fa-podcast"></i> -->
-                            <img class="lazy" src="{{ asset('pific-web-site') }}/img/client/moc.png" alt="#">
+                            <img class="lazy" src="{{ asset('pific-web-site') }}/img/client/moc.jpg" alt="#" width="250px">
                         </div>
 
                     </div>
@@ -584,7 +647,7 @@
                     <div class="single-clint">
                         <div class="icon-head">
                             <!-- <i class="fa fa-podcast"></i> -->
-                            <img class="lazy" src="{{ asset('pific-web-site') }}/img/client/world-bank.png" alt="#">
+                            <img class="lazy" src="{{ asset('pific-web-site') }}/img/client/world-bank.jpg" alt="#" width="250px">
                         </div>
 
                     </div>
@@ -596,7 +659,7 @@
                     <div class="single-clint">
                         <div class="icon-head">
                             <!-- <i class="fa fa-podcast"></i> -->
-                            <img class="lazy" src="{{ asset('pific-web-site') }}/img/client/imc.png" alt="#">
+                            <img class="lazy" src="{{ asset('pific-web-site') }}/img/client/imc.jpg" alt="#" width="250px">
                         </div>
 
 
@@ -609,4 +672,5 @@
 		<!--/ End Client Area -->
 		<!-- Testimonials -->
 	@endsection
+
 

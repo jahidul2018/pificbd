@@ -358,6 +358,40 @@ a.hitCounter.badge-done1 {
    		 margin-top: 2.5%;
 	}
 }
+/*
+    pific-overview-section
+*/
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.choose .titlepage h2 {
+    padding-bottom: 20px;
+}
+.choose .titlepage span {
+    font-size: 17px;
+    line-height: 28px;
+    color: #0c0c0e;
+}
+.choose .choose_box {
+    text-align: center;
+}
+.choose .choose_box span {
+    color: #fff;
+    background-color: #2bbabe;
+    border-radius: 60px;
+    border: #064270 solid 3px;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.choose {
+    /* margin-top: 20px; */
+}
+.pd{
+    padding-right: 30px;
+}
 
 
 

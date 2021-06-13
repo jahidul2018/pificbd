@@ -81,9 +81,9 @@
 						<div class="col-lg-4 col-12">
 							<div class="topbar-right">
 								<!-- Social Icons -->
-								<div class="button">
+								{{-- <div class="button">
 									<a href="{{ url('/apply', []) }}" class="bizwheel-btn">APPLY NOW</a>
-								</div>
+								</div> --}}
 								<ul class="social-icons">
 									<li><a href="#"> </a></li>
 									<li><a href="#">EN</a></li>
@@ -109,7 +109,7 @@
 											<!-- Image Logo -->
 											<div class="img-logo">
 												<a href="{{ url('/', []) }}">
-													<img src="{{ asset('pific-web-site') }}/img/logo.png" alt="#">
+													<img src="{{ asset('pific-web-site') }}/img/logo.jpg" alt="#">
 													{{-- <h3 style="color: darkcyan; font-size: xx-large; font-weight: bolder; border: 1px solid darkcyan;">PIFIC</h3> --}}
 												</a>
 											</div>
@@ -126,29 +126,31 @@
 															<!-- Naviagiton -->
 															<ul id="nav" class="nav main-menu menu navbar-nav">
 																<li><a href="{{ url('/', []) }}">HOME</a></li>
-																<li class="icon-active"><a href="">ABOUT</a>
+																<li class="icon-active"><a href="#">ABOUT</a>
 																	<ul class="sub-menu">
                                                                         <li><a href="{{ url('/about', []) }}">ABOUT US</a></li>
                                                                         <li><a href="{{ url('/pific-teams', []) }}">OUR TEAM</a></li>
-                                                                        <li><a href="{{ url('/our-program', []) }}">OUR PROGRAM</a></li>
+                                                                        {{-- <li><a href="{{ url('/our-program', []) }}">OUR PROGRAM</a></li> --}}
 
 																	</ul>
 																</li>
 
 																<!-- <li><a href="portfolio.html">Our Portfolio</a></li> -->
-																<li class="icon-active"><a href="#">GRS</a>
+																<li class="icon-active"><a href="#">GRM</a>
 																	<ul class="sub-menu">
-																		<li><a href="localgrc.html">ABOUT GRC</a></li>
-																		<li><a href="localgrc.html">LOCAL GRC</a></li>
-																		<li><a href="levelgrc.html">PROJECT LEVEL GRC</a></li>
+																		<li><a href="{{ url('/grm', []) }}">ABOUT GRM</a></li>
+																		<li><a href="{{ url('/grc', []) }}">GRC</a></li>
+																		{{-- <li><a href="levelgrc.html">PROJECT LEVEL GRM</a></li> --}}
 																	</ul>
 																</li>
 																<li><a href="{{ url('/news', []) }}">NEWS & EVENT</a>
+                                                                    <li><a href="{{ url('/project-status', []) }}">PROJECT STATUS</a>
 
 																</li>
-																<li><a href="{{ url('/database', []) }}">DATABASE</a></li>
-                                                                <li><a href="https://boithok.syssolution.com.bd/">SYSBOITHOK</a></li>
+																{{-- <li><a href="{{ url('/database', []) }}">DATABASE</a></li>
+                                                                <li><a href="https://boithok.syssolution.com.bd/">SYSBOITHOK</a></li> --}}
 																<li><a href="{{ url('/contact', []) }}">CONTACT US</a></li>
+																<li><a href="{{ url('/apply', []) }}">APPLY NOW</a></li>
 															</ul>
 															<!--/ End Naviagiton -->
 														</div>
@@ -194,21 +196,21 @@
 					<p> Public Investment Facility for Infrastructure Constraints (PIFIC) is a cluster-based facility of the EC4J Project under the Ministry of Commerce and is financed by the World Bank.</p>
 					<!-- Social Icons -->
 					<ul class="social">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="https://www.facebook.com/PIFIC-Public-Investment-Facility-for-Infrastructure-Constraints-104338121467371/"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/Pific2"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/pific-bd-599b15213/"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UC6p1A9X0z-Lz5Jpx0N36kaw"><i class="fa fa-youtube"></i></a></li>
 					</ul>
 				</div>
 				<div class="single-content">
 					<h4>Important Links</h4>
 					<ul class="links">
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">GRS</a></li>
+						<li><a href="{{ url('/about', []) }}">About Us</a></li>
+						<li><a href="{{ url('/grm', []) }}">GRM</a></li>
 						<!-- <li><a href="#">Portfolio</a></li> -->
 						<!-- <li><a href="#">Pricing Plan</a></li> -->
-						<li><a href="#">NEWS & EVENT</a></li>
-						<li><a href="#">CONTACT US</a></li>
+						<li><a href="{{ url('/news', []) }}">NEWS & EVENT</a></li>
+						<li><a href="{{ url('/contact', []) }}">CONTACT US</a></li>
 					</ul>
 				</div>
 			</div>
@@ -299,8 +301,8 @@
 								<h3 class="widget-title">Contact</h3>
 								<p>Address-Level- 8A, House No-9, Road No-105, Gulshan 2, Dhaka.</p>
 								<ul class="address-widget-list">
-									<li class="footer-mobile-number"><i class="fa fa-phone"></i>+(88)0255 0598 01/2</li>
-									<li class="footer-mobile-number"><i class="fa fa-envelope"></i>info@pific-bd.com</li>
+									<li class="footer-mobile-number"><i class="fa fa-phone"></i><a href="tel:+880255059801">+(88)0255 0598 01/2 </a></li>
+									<li class="footer-mobile-number"><i class="fa fa-envelope"></i><a href="mailto:info@pific.com"> info@pific-bd.com </a> </li>
 									<li class="footer-mobile-number"><i class="fa fa-map-marker"></i>Gulshan 2, Dhaka.</li>
 								</ul>
 							</div>
@@ -324,7 +326,7 @@
 						<div class="col-12">
 							<div class="copyright-content">
 								<!-- Copyright Text -->
-								<p>© Copyright <a href="#">PIFIC</a>. Design &amp; Development By <a target="_blank" href="#">SYSSOLUTION</a></p>
+								<p>© Copyright <a href="#">PIFIC</a>. Design &amp; Development By <a target="_blank" href="http://syssolution.com.bd/">SYSSOLUTION</a></p>
 							</div>
 						</div>
 					</div>
@@ -370,7 +372,7 @@
 
         @yield('script')
         <script>
-            $({ countNum: $('.code').html() }).animate({ countNum: 100000 }, {
+            $({ countNum: $('.code').html() }).animate({ countNum: 00001 }, {
                 duration: 80000,
                 easing: 'linear',
                 step: function () {
@@ -381,6 +383,7 @@
                 //alert('finished');
             }
             });
+
             $(function() {
                 $("img.lazy").lazyload();
             });

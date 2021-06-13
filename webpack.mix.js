@@ -49,12 +49,13 @@ mix.styles([
     'public/pific-web-site/js/jquery-fancybox.min.js',
     'public/pific-web-site/js/cubeportfolio.min.js',
     'public/pific-web-site/js/slicknav.min.js',
-    'public/pific-web-site/js/slicknav.min.js',
+    //'public/pific-web-site/js/slicknav.min.js',
+    'public/pific-web-site/ticker.js',
     'public/pific-web-site/js/owl-carousel.min.js',
     'public/pific-web-site/js/easing.js',
     'public/pific-web-site/js/magnific-popup.min.js',
     'public/pific-web-site/js/active.js',
-    'public/pific-web-site/ticker.js',
+
 ], 'public/js/mix-all.js')
     .version();
 

@@ -23,6 +23,20 @@ use Illuminate\Http\Request;
 
 //app-section
 Route::get('/', function () {
+// determine a lifetime and return as object instead of string
+cache()->flush();
+
+        // [
+        //    '1'=> 'pific-web-site/img/slider/mini/1-min.jpg',
+
+        //     ];
+        //$image= 'pific-web-site/img/slider/mini/1-min.jpg';
+
+// $img = Image::cache(function($image) {
+//     return $image->make('public/pific-web-site/img/slider/mini/1-min.jpg');
+
+//  }, 10, true);
+
     return view('index');
 });
 
@@ -52,6 +66,10 @@ Route::get('/online-apply', function () {
     return view('online-application-form');
 });
 
+Route::get('/evalution-form', function () {
+    return view('evalution-form');
+});
+
 
 //team-section
 Route::get('/pific-teams', function () {
@@ -75,6 +93,17 @@ Route::get('/our-program', function () {
 //database
 Route::get('/database', function () {
     return view('our-program');
+});
+
+Route::get('/project-status', function () {
+    return view('project-status');
+});
+
+Route::get('/grm', function () {
+    return view('grm');
+});
+Route::get('/grc', function () {
+    return view('grc');
 });
 
 Route::Post('/mail', function (Request $request ) {

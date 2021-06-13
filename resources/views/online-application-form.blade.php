@@ -4,7 +4,7 @@
 		<!-- About Us -->
 		<section class="about-us section-space">
 			<div class="container">
-                <h2><strong>Sign Up Your Online Application</strong></h2>
+                <h2><strong>Online Application</strong></h2>
                 <p>Fill all form field to go to next step</p>
                 <div class="stepwizard">
                     <div class="stepwizard-row setup-panel">
@@ -43,17 +43,17 @@
                         <div class="panel-body">
                             <div class="form-group">
                                 <label class="control-label">1.Name of Lead Applicant </label>
-                                <input maxlength="100" type="text" required="required" class="form-control" placeholder="Include enterprise name" />
+                                <input  type="text" required="required" class="form-control" placeholder="Include enterprise name" />
                             </div>
                             <div class="form-group">
                                 <label class="control-label">2.Contact Details of Lead Applicant</label>
                                 <div class="form-group" style="margin-left:2%;">
                                    <label class="control-label">Phone</label>
-                                   <input maxlength="100" type="text" required="required" class="form-control" placeholder="Phone" />
+                                   <input  type="text" required="required" class="form-control" placeholder="Phone" />
                                     <label class="control-label">Email</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control" placeholder="Email" />
+                                    <input  type="text" required="required" class="form-control" placeholder="Email" />
                                     <label class="control-label">Adress</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control" placeholder="Address" />
+                                    <input  type="address" required="required" class="form-control" placeholder="Address" />
                                 </div>
                             </div>
                             <div class="form-group">
@@ -85,23 +85,23 @@
                             </div>
                                 <div class="form-group">
                                     <label class="control-label">4.Name and contact details of firms in the cluster/association represented in this application </label>
-                                    <input maxlength="100" type="text" required="required" class="form-control" placeholder="Name" />
+                                    <input  type="text" required="required" class="form-control" placeholder="Name" />
                                 </div>
                             <div class="form-group" >
                                 <label class="control-label">Phone</label>
-                                <input maxlength="100" type="text" required="required" class="form-control" placeholder="Phone" />
+                                <input  type="text" required="required" class="form-control" placeholder="Phone" />
                             </div>
                             <div class="form-group">
                                 <label class="control-label">Email</label>
-                                <input maxlength="100" type="text" required="required" class="form-control" placeholder="Email"  />
+                                <input  type="email" required="required" class="form-control" placeholder="Email"  />
                             </div>
                             <div class="form-group">
                                 <label class="control-label">Adress</label>
-                                <input maxlength="100" type="text" required="required" class="form-control" placeholder="Adress" />
+                                <input type="address" required="required" class="form-control" placeholder="Adress" />
                                 <br>
                                 <div class="form-group">
                                     <label class="control-label">5.Name and Contacts of the Project Manager</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control" placeholder="Authorized person, not any entity" />
+                                    <input  type="text" required="required" class="form-control" placeholder="Authorized person, not any entity" />
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">6.Provide Details of Business (Cluster/ Associations)<i class="fa fa-star" aria-hidden="true"></i></label>
@@ -121,7 +121,7 @@
                               </div>
 
                                     <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-                                    <input class="form-control" type="file" id="formFileMultiple" multiple />
+                                    <input class="form-control" type="file" id="formFileMultiple" />
                                     <br>
                                     <div class="form-group">
                                         <label class="control-label">7.Can you ensure availability of land for the proposed project? </label>
@@ -239,7 +239,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">17.Project implementation period</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control" placeholder="" >
+                                    <input type="text" required="required" class="form-control" placeholder="" >
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">18.Do you have a business model to sustain the project? </label>
@@ -298,8 +298,7 @@
                                            <label class="control-label mr-2">PIFIC Funding</label>
                                        <br>
                                        <div class="col-md-6">
-                                           <label class="control-label">Amount
-                                            [ US$/BDT
+                                           <label class="control-label">Amount [US$/BDT]
                                             </label>
                                            <input maxlength="200" type="text" required="required" class="form-control" placeholder="" />
                                        </div>
@@ -315,7 +314,7 @@
                                     <br>
                                     <div class="col-md-6">
                                         <label class="control-label">Amount
-                                         [ US$/BDT
+                                         [ US$/BDT]
                                          </label>
                                         <input maxlength="200" type="text" required="required" class="form-control" placeholder=""  />
                                     </div>
@@ -331,7 +330,7 @@
                                     <br>
                                     <div class="col-md-6">
                                         <label class="control-label">Amount
-                                         [ US$/BDT
+                                         [ US$/BDT]
                                          </label>
                                         <input maxlength="200" type="text" required="required" class="form-control" placeholder="" />
                                     </div>
@@ -347,7 +346,7 @@
                                     <br>
                                     <div class="col-md-6">
                                         <label class="control-label">Amount
-                                         [ US$/BDT
+                                         [ US$/BDT]
                                          </label>
                                         <input maxlength="200" type="text" required="required" class="form-control" placeholder="" />
                                     </div>
@@ -490,17 +489,17 @@
                                   <div class="form-check form-check-inline">
                                         <div class="ilcb green mr-2" id="">
                                             <label class="checkbox-inline">
-                                                <input type="checkbox" value="">Option 1
+                                                <input type="checkbox" value="1" selected checked>Option 1
                                             </label>
                                         </div>
                                         <div class="ilcb orange" id="" style=" background-color:orange;">
                                             <label class="checkbox-inline">
-                                                <input type="checkbox" value="">Option 2
+                                                <input type="checkbox" value="2">Option 2
                                                 </label>
                                         </div>
                                         <div class="ilcb darkorange" id="" style="background-color:darkorange;">
                                             <label class="checkbox-inline">
-                                                <input type="checkbox" value="">Option 3
+                                                <input type="checkbox" value="3">Option 3
                                             </label>
                                         </div>
                                         <div class="ilcb red" id="" style="background-color:red;">
@@ -551,7 +550,7 @@
                                     <img src="{{ asset('pific-web-site') }}/img/success.png" alt="success image" class="img-thumbnail" style="height: 200px; position: relative; ">
                                 </center>
                             </div>
-                            <button class="btn btn-success pull-right" type="button">Download Complete Form</button>
+                            <button class="btn btn-success pull-right" type="button"><a href="{{ asset('pific-web-site') }}/Project-Application.docx" target="_blank" rel="noopener noreferrer"></a> Download Complete Form</button>
                          </div>
                     </div>
                 </form>

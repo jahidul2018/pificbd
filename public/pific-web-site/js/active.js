@@ -1,11 +1,11 @@
 (function($) {
     "use strict";
-     $(document).on('ready', function() {	
-	
-			
+     $(document).on('ready', function() {
+
+
 		/*====================================
 			Header Sticky JS
-		======================================*/ 
+		======================================*/
 		jQuery(window).on('scroll', function() {
 			if ($(this).scrollTop() > 1) {
 				$('.header').addClass("sticky");
@@ -13,45 +13,45 @@
 				$('.header').removeClass("sticky");
 			}
 		});
-		
+
 		/*====================================
 			Mobile Menu JS
-		======================================*/ 
+		======================================*/
 		$('.main-menu').slicknav({
 			prependTo:".mobile-nav",
 			label: '',
 			duration: 500,
 			easingOpen: "easeOutBounce",
 		});
-		
+
 		/*====================================
 			Search JS
-		======================================*/ 	
+		======================================*/
 		$('.top-search a').on( "click", function(){
 			$('.search-top').toggleClass('active');
 		});
-		
+
 		/*====================================
 			Team JS
-		======================================*/ 
+		======================================*/
 		$('.single-team').on( "click", function(){
 			$(this).toggleClass("active");
 		});
-		
+
 		/*====================================
 			Sidebar Popup JS
-		======================================*/ 	
+		======================================*/
 		$('.right-nav .bar').on( "click", function(){
 			$('.sidebar-popup').addClass('active');
 		});
-		
+
 		$('.sidebar-popup .cross').on( "click", function(){
 			$('.sidebar-popup').removeClass('active');
 		});
-		
+
 		/*====================================
 			Portfolio Details JS
-		======================================*/ 
+		======================================*/
 		$('.home-slider').owlCarousel({
 			items:1,
 			autoplay:false,
@@ -64,10 +64,10 @@
 			dots:false,
 			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 		});
-		
+
 		/*====================================
 			Portfolio Details JS
-		======================================*/ 
+		======================================*/
 		$('.pf-details-slider').owlCarousel({
 			items:1,
 			autoplay:false,
@@ -80,10 +80,10 @@
 			dots:false,
 			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 		});
-		
+
 		/*====================================
 			Portfolio Details JS
-		======================================*/ 
+		======================================*/
 		$('.testimonial-slider').owlCarousel({
 			items:1,
 			autoplay:false,
@@ -95,11 +95,11 @@
 			nav:false,
 			dots:true,
 		});
-		
-		
+
+
 		/*====================================
 			Portfolio Details JS
-		======================================*/ 
+		======================================*/
 		$('.team-slider').owlCarousel({
 			items:3,
 			autoplay:false,
@@ -125,10 +125,10 @@
 				},
 			}
 		});
-		
+
 		/*====================================
 			Portfolio Details JS
-		======================================*/ 
+		======================================*/
 		$('.blog-latest-slider').owlCarousel({
 			items:2,
 			autoplay:false,
@@ -157,7 +157,7 @@
 		});
 		/*====================================
 			Portfolio Details JS
-		======================================*/ 
+		======================================*/
 		$('.partner-slider').owlCarousel({
 			items:6,
 			autoplay:false,
@@ -188,35 +188,35 @@
 				},
 			}
 		});
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
 		/*=====================================
 			CounterUp JS
-		======================================*/  
-		$('.number').counterUp({
-			time: 1000
-		});
-		
+		======================================*/
+		// $('.number').counterUp({
+		// 	time: 1000
+		// });
+
 		/*=====================================
 			Video Popup
-		======================================*/ 
+		======================================*/
 		$('.video-popup').magnificPopup({
 			type: 'iframe',
 			removalDelay: 300,
 			mainClass: 'mfp-fade'
 		});
-		
+
 	});
-	
-		
+
+
 		/*====================================
 			Scrool Up JS
-		======================================*/ 	
+		======================================*/
 		$.scrollUp({
 			scrollName: 'scrollUp',      // Element ID
 			scrollDistance: 300,         // Distance from top/bottom before showing element (px)
@@ -231,7 +231,7 @@
 			activeOverlay: false,        // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 			zIndex: 2147483647           // Z-Index for the overlay
 		});
-		
+
 		/*====================================
 			Preloader JS
 		======================================*/
@@ -240,5 +240,5 @@
 				jQuery(this).remove();
 			});
 		});
-		
+
 })(jQuery);
