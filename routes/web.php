@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 
 use Illuminate\Http\Request;
 
+use App\Http\Controllers\LocalizationController;
+use App\Http\Controllers\OnlineApplicationController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,10 +24,42 @@ use Illuminate\Http\Request;
 // });
 
 
+Route::get('/index', [LocalizationController::class,'index']);
+Route::get('/bn', [LocalizationController::class,'lang_change'])->name('LangChange');
+//ajax-crud
+    //Route::POST('/userData/getUserData','UserDataController@getUserData');
+    // Route::resource('/userData','UserDataController');
+// Route::post('/submits', [OnlineApplicationController::class, 'Store'])->name('store');
+
+// Route::get('/online-apply', function () {
+//     return view('online-application-form');
+// });
+
+Route::get('/online/apply', [OnlineApplicationController::class, 'createStepOne'])->name('submits.create.step.one');
+Route::post('online/apply/create-step-one', [OnlineApplicationController::class, 'postCreateStepOne'])->name('submits.create.step.one.post');
+
+Route::get('/online/apply/create-step-two', [OnlineApplicationController::class, 'createStepTwo'])->name('submits.create.step.two');
+Route::post('/online/apply/create-step-two', [OnlineApplicationController::class, 'postCreateStepTwo'])->name('submits.create.step.two.post');
+
+Route::get('/online/apply/create-step-three', [OnlineApplicationController::class, 'createStepThree'])->name('submits.create.step.three');
+Route::post('/online/apply/create-step-three', [OnlineApplicationController::class, 'postCreateStepThree'])->name('submits.create.step.three.post');
+
+Route::get('/online/apply/create-step-four', [OnlineApplicationController::class, 'createStepFour'])->name('submits.create.step.four');
+Route::post('/online/apply/create-step-four', [OnlineApplicationController::class, 'postCreateStepFour'])->name('submits.create.step.four.post');
+
+Route::get('/online/apply/create-step-five', [OnlineApplicationController::class, 'createStepFive'])->name('submits.create.step.five');
+Route::post('/online/apply/create-step-five', [OnlineApplicationController::class, 'postCreateStepFive'])->name('submits.create.step.five.post');
+
+Route::get('/online/apply/create-step-six', [OnlineApplicationController::class, 'createStepSix'])->name('submits.create.step.six');
+Route::post('/online/apply/create-step-six', [OnlineApplicationController::class, 'postCreateStepSix'])->name('submits.create.step.six.post');
+
+
+
+
 //app-section
 Route::get('/', function () {
 // determine a lifetime and return as object instead of string
-cache()->flush();
+//cache()->flush();
 
         // [
         //    '1'=> 'pific-web-site/img/slider/mini/1-min.jpg',
@@ -62,9 +97,7 @@ Route::get('/news-single', function () {
 Route::get('/apply', function () {
     return view('apply');
 });
-Route::get('/online-apply', function () {
-    return view('online-application-form');
-});
+
 
 Route::get('/evalution-form', function () {
     return view('evalution-form');
@@ -142,7 +175,7 @@ Route::get('/send-mail', function () {
 
     \Mail::to($receivedmail)->send(new \App\Mail\OnlineApplicationMail($details));
     //return view('our-program');
-    dd("Email is Sent to kanak.");
+    //dd("Email is Sent to kanak.");
 });
 
 

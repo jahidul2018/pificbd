@@ -85,9 +85,13 @@
 									<a href="{{ url('/apply', []) }}" class="bizwheel-btn">APPLY NOW</a>
 								</div> --}}
 								<ul class="social-icons">
-									<li><a href="#"> </a></li>
+									{{-- <li><a href="#"> </a></li>
 									<li><a href="#">EN</a></li>
-									<li><a href="#">BN</a></li>
+									<li><a href="#">BN</a></li> --}}
+                                    <select class="Langchange">
+                                        <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>En</option>
+                                        <option value="bn" {{ session()->get('locale') == 'bn' ? 'selected' : '' }}>Bn</option>
+                                    </select>
 
 								</ul>
 							</div>
@@ -239,7 +243,7 @@
 									</div>
 								</div>
 								<div class="footer-widget-about-description">
-									<p>PIFIC is a cluster based facility that will create infrastructural facilities and new jobs across Bangladesh...</p>
+									<p>{{ __('index.footer_section_about') }}</p>
 								</div>
 								<div class="social">
 									<!-- Social Icons -->
@@ -258,14 +262,14 @@
 						<div class="col-lg-2 col-md-6 col-12">
 							<!-- Footer Links -->
 							<div class="single-widget f-link widget">
-								<h3 class="widget-title">Quick Links
+								<h3 class="widget-title">{{ __('index.footer_section_link-1') }}
 								</h3>
 								<ul>
-									<li><a href="{{ url('/about', []) }}">ABOUT</a></li>
-									<li><a href="#">GRS</a></li>
+									<li><a href="{{ url('/about', []) }}">{{ __('index.footer_section_link-3') }}</a></li>
+									<li><a href="#">{{ __('index.footer_section_link-4') }}</a></li>
 									<!-- <li><a href="#">Portfolio</a></li> -->
-									<li><a href="{{ url('/news', []) }}">NEWS & EVENTS</a></li>
-									<li><a href="{{ url('/contact', []) }}">CONTACT US</a></li>
+									<li><a href="{{ url('/news', []) }}"> {{ __('index.footer_section_link-6') }}</a></li>
+									<li><a href="{{ url('/contact', []) }}">{{ __('index.footer_section_link-5') }}</a></li>
 								</ul>
 							</div>
 							<!--/ End Footer Links -->
@@ -273,13 +277,13 @@
 						<div class="col-lg-4 col-md-6 col-12">
 							<!-- Footer News -->
 							<div class="single-widget footer-news widget">
-								<h3 class="widget-title">News Page</h3>
+								<h3 class="widget-title">{{ __('index.footer-section-news-title') }}</h3>
 								<!-- Single News -->
 								<div class="single-f-news">
 									<div class="post-thumb"><a href="#"><img src="{{ asset('pific-web-site') }}/img/news/1.jpg" alt="#"></a></div>
 									<div class="content">
-										<p class="post-meta"><time class="post-date"><i class="fa fa-clock-o"></i>Dec 9, 2020</time></p>
-										<h4 class="title"><a href="#">PIFIC & Project launch Date</a></h4>
+										<p class="post-meta"><time class="post-date"><i class="fa fa-clock-o">{{ __('index.footer-section-news-1-date') }}</i></time></p>
+										<h4 class="title"><a href="#"> {{ __('index.footer-section-news-1-title') }} </a></h4>
 									</div>
 								</div>
 								<!--/ End Single News -->
@@ -287,8 +291,8 @@
 								<div class="single-f-news">
 									<div class="post-thumb"><a href="#"><img src="{{ asset('pific-web-site') }}/img/news/2.jpg" alt="#"></a></div>
 									<div class="content">
-										<p class="post-meta"><time class="post-date"><i class="fa fa-clock-o"></i>Dec 9, 2020</time></p>
-										<h4 class="title"><a href="blog-sngle.html">PIFIC Provide Best &amp; Creative Consulting Service</a></h4>
+										<p class="post-meta"><time class="post-date"><i class="fa fa-clock-o"></i> {{ __('index.footer-section-news-2-date') }}</time></p>
+										<h4 class="title"><a href="blog-sngle.html">{{ __('index.footer-section-news-2-title') }}</a></h4>
 									</div>
 								</div>
 								<!--/ End Single News -->
@@ -298,12 +302,12 @@
 						<div class="col-lg-3 col-md-6 col-12">
 							<!-- Footer Contact -->
 							<div class="single-widget footer_contact widget">
-								<h3 class="widget-title">Contact</h3>
-								<p>Address-Level- 8A, House No-9, Road No-105, Gulshan 2, Dhaka.</p>
+								<h3 class="widget-title">{{ __('index.address') }}</h3>
+								<p>{{ __('index.address-1') }}</p>
 								<ul class="address-widget-list">
-									<li class="footer-mobile-number"><i class="fa fa-phone"></i><a href="tel:+880255059801">+(88)0255 0598 01/2 </a></li>
-									<li class="footer-mobile-number"><i class="fa fa-envelope"></i><a href="mailto:info@pific.com"> info@pific-bd.com </a> </li>
-									<li class="footer-mobile-number"><i class="fa fa-map-marker"></i>Gulshan 2, Dhaka.</li>
+									<li class="footer-mobile-number"><i class="fa fa-phone"></i><a href="tel:+880255059801"> {{ __('index.address-2') }}</a></li>
+									<li class="footer-mobile-number"><i class="fa fa-envelope"></i><a href="mailto:info@pific.com">  {{ __('index.address-3') }}</a> </li>
+									<li class="footer-mobile-number"><i class="fa fa-map-marker"></i> {{ __('index.address-4') }}</li>
 								</ul>
 							</div>
 							<!--/ End Footer Contact -->
@@ -372,7 +376,7 @@
 
         @yield('script')
         <script>
-            $({ countNum: $('.code').html() }).animate({ countNum: 00001 }, {
+            $({ countNum: $('.code').html() }).animate({ countNum: 00101 }, {
                 duration: 80000,
                 easing: 'linear',
                 step: function () {
@@ -390,22 +394,27 @@
         </script>
 
 		<script>
-			var leater="Leather is a durable and flexible material created by tanning animal rawhide and skins. Leather is used to make a variety of articles, including footwear, automobile seats, clothing, bags, book bindings, fashion accessories, and furniture";
-			var lenth=220;
-			var trim=leater.substring(0,lenth);
-			$("#lea").html(trim);
+			// var leater="Leather is a durable and flexible material created by tanning animal rawhide and skins. Leather is used to make a variety of articles, including footwear, automobile seats, clothing, bags, book bindings, fashion accessories, and furniture";
+			// var lenth=220;
+			// var trim=leater.substring(0,lenth);
+			// $("#lea").html(trim);
 
-			var plastic= "Plastics is the term commonly used to describe a wide range of synthetic or semi-synthetic materials that are used in a huge and growing range of applications. We use plastic products to help make our lives cleaner, easier, safer and more enjoyable.";
-			var pla=plastic.substring(0,lenth);
-			$("#pp").html(pla);
+			// var plastic= "Plastics is the term commonly used to describe a wide range of synthetic or semi-synthetic materials that are used in a huge and growing range of applications. We use plastic products to help make our lives cleaner, easier, safer and more enjoyable.";
+			// var pla=plastic.substring(0,lenth);
+			// $("#pp").html(pla);
 
-            var footer= "Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature. Footwear in the manner of the shoes therefore primarily serves the purpose to ease the locomotion and prevent injuries";
-            var ff=footer.substring(0,lenth);
-			$("#ft").html(ff);
+            // var footer= "Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature. Footwear in the manner of the shoes therefore primarily serves the purpose to ease the locomotion and prevent injuries";
+            // var ff=footer.substring(0,lenth);
+			// $("#ft").html(ff);
 
-            var light= "Light Engineering Component solutions offered comprise solutions like ball screw, micron ball screws, mechanical ball screws, standard ball screws, flexible coupling and other industrial components.";
-            var lig=light.substring(0,lenth);
-			$("#li").html(lig);
+            // var light= "Light Engineering Component solutions offered comprise solutions like ball screw, micron ball screws, mechanical ball screws, standard ball screws, flexible coupling and other industrial components.";
+            // var lig=light.substring(0,lenth);
+			// $("#li").html(lig);
+
+            var url = "{{ route('LangChange') }}";
+    $(".Langchange").change(function(){
+        window.location.href = url + "?lang="+ $(this).val();
+    });
 
 			</script>
 	</body>
